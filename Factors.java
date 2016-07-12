@@ -4,7 +4,7 @@ public class Factors
 {
 public static void main(String[] args) 
 {
-int num=10;
+int num=20;
 int no1;
 
 System.out.println("Factors of Number are ");
