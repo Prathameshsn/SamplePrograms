@@ -15,13 +15,13 @@ public static void main(String[] args)
 
 public static void ran(int n)
 {
-	Random r=new Random();
+	Random r=new Random(555);
 	int rn;
 	
 	for(int i=1;i<=n;++i)
 	{
-		r.nextInt();
-		System.out.println(""+r);
+		rn=r.nextInt(23);
+		System.out.println(""+rn);
 	}
 	
 }

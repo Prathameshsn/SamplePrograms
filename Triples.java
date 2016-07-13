@@ -1,39 +1,39 @@
 package Sample;
 
+import java.util.Scanner;
+
+
 public class Triples 
 {
+	int count=0,s=0;
+public void sum(int arr[])
+{
+		for(int i=0;i<arr.length-1;i++)
+		{
+			for(int j=i+1;j<arr.length-1;j++)
+			{
+				for(int k=j+1;k<arr.length-1;k++)
+				{
+					
+				if(arr[i]+arr[j]+arr[k]==s)
+				{
+					count++;
+					System.out.println("Triples are: "+arr[i]+arr[j]+arr[k]);
+				}
+					
+				}
+			}
+		}
+}
+	
+
 	
 public static void main(String[] args) 
 {
-int arr1[]=new int[25];
-int arr2[]=new int[25];
-int arr3[]=new int[25];
-
-
-for(int a=-9;a>-10 && a<10;a++)
-{
-	for(int b=0;b<=20;b++)
-	{
-		arr1[b]=a;
-		arr2[b]=a;
-		arr3[b]=a;
-	}
-	
-}
-
-
-	for(int i=0;i<=20;i++) 
-	{
-		for(int j=0;j<=20;j++)
-		{
-			for(int k=0;k<=20;k++)
-			{
-				if(arr1[i] + arr2[j] + arr3[k]==0)
-				System.out.println("Triples are"+i+j+k);
-			}
-		}
-		
-	}
-
+Triples obj=new Triples();
+Scanner sc=new Scanner(System.in);
+int arr[]={1,2,1,1,-1,-2,-1,0};
+obj.sum(arr);	
 }
 }
+
