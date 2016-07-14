@@ -3,10 +3,12 @@ public class Bubble
 {
 
 public static void main(String[] args) 
-{
-int arr[]={4,2,6,9,4,5,7,3};
-sort(arr);
-}
+	{
+	int arr[]={4,2,6,9,4,5,7,3};
+	
+	/*Pass array to sort method as argument*/
+	sort(arr);
+	}
 
 public static void sort(int arr[])
 {

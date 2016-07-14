@@ -9,9 +9,9 @@ public class Anagram
 public void check(String a,String b)
 	{
 	
-		boolean b1=true;
+	boolean b1=true;
 	
-	if(a.length()!=b.length())
+	if(a.length()!=b.length())         /*Comparing Length of String*/
 	{
 		b1=false;
 		System.out.println("String is not Anagram");

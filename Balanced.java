@@ -10,7 +10,7 @@ public class Balanced
 {
 public static void main(String[] args) throws IOException 
 {
-	FileReader fr=new FileReader("/home/bridgeit/Documents/bal");
+	FileReader fr=new FileReader("/home/bridgeit/Documents/bal");  /*Read Text File*/
 	BufferedReader br=new BufferedReader(fr);
 	String str=br.readLine();
 	

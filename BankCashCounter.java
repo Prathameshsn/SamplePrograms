@@ -26,7 +26,7 @@ case 2:
 		
 		System.out.println("Enter the ammount:");
 		int amt1=sc.nextInt();
-		obj.enqueue(amt1);
+		obj.enqueue(amt1);					/*Method of Utility class*/
 		break;
 	}
 
@@ -34,7 +34,7 @@ case 3:
 	{
 	System.out.println("Enter ammount to Withdrow");
 	int amt2=sc.nextInt();
-	obj.dequeue(amt2);
+	obj.dequeue(amt2);					   	/*Method of Utility class*/
 	
 	break;
 	}

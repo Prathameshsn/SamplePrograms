@@ -8,7 +8,7 @@ public static void main(String[] args)
 	Scanner sc=new Scanner(System.in);
 	
 	
-System.out.println("Choose the Input Type");
+System.out.println("Choose the Input Type");	/*Taking input from user*/
 System.out.println("\nEnter 1 for Integer :");
 System.out.println("Enter 2 for Double :");
 System.out.println("Enetr 3 for Bollean :");
@@ -25,7 +25,7 @@ int i=sc.nextInt();
 			System.out.println("Enter Value of m*n");
 			int mn=sc.nextInt();
 			
-			int arr[][]=new int[m][n];
+			int arr[][]=new int[m][n];    /*2D array Declaration of type int*/
 			for(int j=0;j<m;j++)
 				{
 					for(int k=0;k<n;k++)
@@ -35,13 +35,13 @@ int i=sc.nextInt();
 				}
 			
 			for(int j=0;j<m;j++)
-			{
-				for(int k=0;k<n;k++)
 				{
-					System.out.print(arr[j][k]);
+					for(int k=0;k<n;k++)
+					{
+						System.out.print(arr[j][k]);
+					}
+					System.out.println();
 				}
-				System.out.println();
-			}
 		}
 		
 		
@@ -54,7 +54,8 @@ int i=sc.nextInt();
 			System.out.println("Enter Value of m*n");
 			double mn=sc.nextInt();
 			
-			Double[][] arr=new Double[m][n];
+			
+			Double[][] arr=new Double[m][n]; /*2D array Declaration of type Double*/
 			for(int j=0;j<m;j++)
 				{
 					for(int k=0;k<n;k++)
@@ -64,13 +65,13 @@ int i=sc.nextInt();
 				}
 			
 			for(int j=0;j<m;j++)
-			{
-				for(int k=0;k<n;k++)
 				{
-					System.out.print(arr[j][k]);
+					for(int k=0;k<n;k++)
+					{
+						System.out.print(arr[j][k]);
+					}
+					System.out.println();
 				}
-				System.out.println();
-			}
 		}
 	
 	
@@ -83,7 +84,7 @@ int i=sc.nextInt();
 			System.out.println("Enter Value of m*n");
 			boolean mn=sc.hasNext();
 			
-			boolean arr[][]=new boolean[m][n];
+			boolean arr[][]=new boolean[m][n];  /*2D array Declaration of type boolean*/
 			for(int j=0;j<m;j++)
 				{
 					for(int k=0;k<n;k++)
@@ -101,11 +102,7 @@ int i=sc.nextInt();
 				System.out.println();
 			}
 		}
-		
-		
-		
 	}
-	
 	sc.close();
 }
 }
